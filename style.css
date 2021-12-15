@@ -1,0 +1,64 @@
+body{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color:#4fd8e8;
+background-image: linear-gradient(to bottom, rgba(255,255,255,.1), rgba(255,255,255,.4), rgba(255,255,255,0), rgba(255,255,255,.4));
+}
+
+div { 
+    width: 700px; 
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000;
+}
+
+#combustivel{
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 290px;
+}
+
+h1{
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin-left: 130px;
+    font-weight: bolder;
+}
+
+h4, h3{
+    text-align: center;
+}
+
+#resultado{
+    text-align: center;
+    margin-left: 300px;
+    font-weight: bolder;
+    border: 2px solid #000;
+}
+
+#litros{
+    text-align: center;
+    font-size: 17;
+    margin-left: 260px;
+    font-weight: bolder;
+    border: 2px solid #000;
+}
+
+label{
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 185px;
+}
+
+p{
+    margin-left: 30px;
+}
+
+select{
+    border: 2px solid #000;
+    font-size: 17px;
+}
