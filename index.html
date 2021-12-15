@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina com JS</title>
+</head>
+<body>
+    <!--Caixa Flutuante-->
+    <div>
+        <h1>Calcule sua conta:</h1>
+        <h4>Tabela de preços:</h4>
+        <table border="1" width="450px">
+            <tr>
+                <td>Combustivel</td>
+                <td>Preço por litro</td>
+            </tr>
+            <tr>
+                <td>Gasolina</td>
+                <td>R$5,50</td>
+            </tr>
+            <tr>
+                <td>Álcool</td>
+                <td>R$4,90</td>
+            </tr>
+        </table>
+        <p>
+            *Ganhe 7% de desconto ao abastecer até 20 litros, e 8% de desconto ao abastecer mais de 20 litros de gasolina!!
+        </p>
+        <p>
+            *Ganhe 6% de desconto ao abastecer até 20 litros, e 7% de desconto ao abastecer mais de 20 litros de álcool!!
+        </p>
+        <br><br>
+    <form id="form" onsubmit="return false">
+        <label for="combustivel">Selecione o tipo de combustivel:</label>
+
+        <br><br>
+
+
+        <select id="combustivel">
+            <option value="1">Gasolina</option>
+            <option value="2">Etanol</option>
+        </select>
+
+        <br><br>
+
+        <h3>Selecione a quantidade de litros abastecidos:</h3>
+        <input type="number" id="litros" min="1" max="50" placeholder="Quantidade de litros" required>
+        <br>
+        <h4>Veja o valor total que você deve pagar:</h4>
+        <input type="submit" id="resultado" value="Clique aqui!">
+    </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
